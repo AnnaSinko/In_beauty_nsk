@@ -1,0 +1,67 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.Portfolio_Natalia {
+    width: 100%;
+    height: 1080px;
+    background: url("images/%D0%9E%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0%20%D0%BF%D0%BE%D1%80%D1%82%D1%84%D0%BE%D0%BB%D0%B8%D0%BE.jpg") center no-repeat;
+    
+}
+.Portfolio_Natalia_title {
+    position: absolute;
+    width: 449px;
+    height: 184px;
+    left: 736px;
+    top: 356px;
+    font-family: 'Clicker Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 190px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+ 
+}
+.Portfolio_Natalia_subtitle {
+    position: absolute;
+    width: 520px;
+    height: 261px;
+    left: 700px;
+    top: 540px;
+    font-family: 'Concert One', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 144px;
+    line-height: 112px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 1);
+    
+}
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    height: 1080px;
+    
+}
+.works_item {
+    width: 32.274%;
+    height: 360px;
+    position: relative;
+    overflow: hidden;
+    border: 10px solid rgba(255, 255, 255, 1);
+    
+}
+.works_photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0)
+    
+}
+
